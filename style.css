@@ -1,0 +1,75 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(185, 228, 12);
+}
+
+header {
+    background-color: rgb(139, 60, 60);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#menuPic{
+    display: block;
+    width: 100px;
+}
+
+#menuPic2{
+    position: absolute;
+    width: 100px;
+    left: 93%;
+    top: 15%;
+}
+
+.inHeader{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(0, -50%);
+}
+
+header button a{
+    color:black;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header button{
+    border-radius: 15%;
+    border: 0;
+    background-color: rgba(235, 239, 224, 0.797);
+    height: 50px;
+    width: 80px;
+}
+
+main{
+    background-image: url("https://cdn.uc.assets.prezly.com/3d2eaec6-1717-4553-b0bf-4b1541f66f25/Monkey%20ShoulderOld%20Fashioned__large.jpg");
+    height: 700px;
+    position: relative;
+}
+
+#quote{
+    position: absolute;
+    color:rgba(44, 47, 201, 0.844);
+    font-size: 50px;
+    width: 515px;
+    top: 25%;
+    left: 2%;
+    margin-top: -25px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.7);
+    border-radius: 10%;
+    box-shadow: 0.9;
+}
+
+footer{
+    display: grid;
+    background-color: rgb(139, 60, 60);
+    width: 100%;
+}
+
+footer p{
+    color:aliceblue
+}
