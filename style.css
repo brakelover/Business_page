@@ -22,6 +22,10 @@ header {
     transform: translate(0, -50%);
 }
 
+#homeButton{
+    background-color: rgba(250, 252, 247, 0.904);
+}
+
 header button a{
     color:black;
     text-decoration: none;
@@ -72,5 +76,5 @@ footer{
 }
 
 footer p{
-    color:aliceblue
+    color:rgb(244, 247, 249)
 }
